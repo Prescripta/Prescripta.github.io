@@ -3,6 +3,9 @@ body {
 	font-family: 'Raleway', sans-serif;
     color: #949393;
     margin: 0;
+    width: 100%; 
+    height: 100%;
+    overflow-y: hidden;
 }
 a, button {
 transition: 0.3s all ease-out;
@@ -28,6 +31,7 @@ a:hover {
     width: 30%;
     height: 950px;
     overflow: hidden;
+    overflow-y: hidden;
 }
 header#header {
     margin-bottom: 70px;
